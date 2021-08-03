@@ -1,0 +1,57 @@
+body {
+    background: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ header {
+    background: radial-gradient(circle, #7b1486 0%, #143136 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50vw;
+    text-align: center;
+    color: honeydew;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-radius: 2%;
+ }
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 60vh;
+    background-color: transparent;
+}
+label {
+    font-weight: 600;
+}
+#btn{
+    padding: 1.2em;
+}
+#btn:hover{
+    font-weight: bold;
+    color:gold;
+}
+#demo {
+    background-color: rgb(131, 121, 121);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+li {
+    list-style-type:  none;
+}

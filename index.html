@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pizzashop</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class = "fluid-container" id="container">
+        <header><h2>The Pizza Place</h2></header>
+        <form  id = "form">
+            <div class="flex">
+                    <label for="pizzaSize">pizzaSize</label>
+                    <select class="form-select" id="pizzaSize" name="pizzaSize">
+                       <option>small</option>
+                       <option>medium</option>
+                       <option>large</option>
+                    </select>
+                   </div>
+                   <div>
+                    <label for="crust">crust</label>
+                    <select id="crust" name="crust">
+                       <option>Thin</option>
+                       <option>Regular</option>
+                       <option>Pan</option>
+                       <option>Thick</option>
+                    </select>
+                   </div>
+                   <div>
+                    <label for="toppings">Toppings</label>
+                    <select id="toppings">
+                       <option>Pepperoni</option>
+                       <option>Mushrooms</option>
+                       <option>GreenPeppers</option>
+                       <option>Barbecue steak</option>
+                    </select>
+                   </div>
+                   <div>
+                    <label for="amount">Amount</label>
+                    <input type="number" id="number" min="0" max="1000">
+                   </div>
+                   <div>
+                    <label for="amount">deliveryOption</label>
+                    <select id="delivery" name="deliveryOption">
+                       <option value="delivery">Delivery-50</option>
+                       <option value="pickup" selected>pickup-0</option>
+                    </select>
+                   </div>
+                   <div>
+                    <label for="location">Location</label>
+                       <input id="location" type="text" placeholder="enter location">
+                   </div>
+                   </div>
+                   <button id="btn">Click to Add</button>
+            </div>
+     </form>
+    </div>
+    <ul id="demo">
+        <h2>order details</h2>
+        <li id="size"></li>
+        <label>crust</label>
+        <li id="crust"></li>
+        <label>toppings</label>
+        <li id="toppings"></li>
+        <label>Amount:</label>
+        <li id="amount"></li>
+        <label>delivery:</label>
+        <li id="delivery"></li>
+        <label>totals:</label>
+        <li id="totals"></li>
+    </ul>
+    <script src="js.js">
+    </script>
+</body>
+</html>
